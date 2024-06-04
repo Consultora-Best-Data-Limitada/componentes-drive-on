@@ -52,11 +52,11 @@ import type { TMessageDialog } from "./tMessageDialog";
 import type { TConfirmationDialog } from "./tConfirmationDialog";
 import type { TButton } from "./TButton";
 
-export declare interface ComponentesReutility {
+export declare interface ComponentesDriveOn {
   install(app: App): void;
 }
 
-export declare function componentesReutility(): ComponentesReutility;
+export declare function componentesDriveOn(): ComponentesDriveOn;
 
 export type ImageCropperRef = {
   crop: () => Promise<Blob>;
