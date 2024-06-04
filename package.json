@@ -1,0 +1,61 @@
+{
+  "name": "componentes-reutility",
+  "version": "0.7.6",
+  "private": true,
+  "main": "dist/componentes-reutility.umd.cjs",
+  "module": "dist/componentes-reutility.js",
+  "browser": "dist/componentes-reutility.js",
+  "type": "module",
+  "types": "typings/index.d.ts",
+  "files": [
+    "dist/index.css",
+    "dist/*.{js,cjs,mjs}",
+    "typings/*.d.ts"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "exports": {
+    ".": {
+      "types": "./typings/index.d.ts",
+      "import": "./dist/componentes-reutility.js",
+      "require": "./dist/componentes-reutility.umd.cjs"
+    },
+    "./dist/index.css": {
+      "import": "./dist/index.css",
+      "require": "./dist/index.css"
+    }
+  },
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^4.2.2",
+    "maska": "^2.1.7",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@types/node": "^18.15.10",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/tsconfig": "^0.1.3",
+    "autoprefixer": "^10.4.15",
+    "csstype": "^3.1.2",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.31",
+    "prettier": "^2.8.4",
+    "sass": "^1.60.0",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animated": "^1.0.1",
+    "typescript": "~4.8.4",
+    "vite": "^4.1.4",
+    "vue-tsc": "^1.2.0"
+  }
+}
