@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 :root {
-  --acento-principal: 36, 183, 112;
-  --acento-principal-hover: 99, 227, 176;
-  --acento-principal-pressed: 14, 129, 83;
-  --acento-secundario: 8, 127, 140;
-  --acento-secundario-hover: 100, 205, 217;
-  --acento-secundario-pressed: 28, 99, 106;
-  --secundario: 58, 90, 117;
+  --acento-principal: 0, 119, 182;
+  --acento-principal-hover: 20, 166, 243;
+  --acento-principal-pressed: 2, 75, 114;
+  --acento-secundario: 0, 175, 185;
+  --acento-secundario-hover: 54, 235, 245;
+  --acento-secundario-pressed: 2, 124, 131;
+  --secundario: 28, 42, 57;
   --neutro-1: 255, 255, 255;
   --neutro-2: 225, 228, 239;
   --neutro-3: 196, 211, 229;
