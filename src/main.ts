@@ -3,8 +3,8 @@ import App from "./App.vue";
 
 import "./assets/fonts/metropolis/metropolis.css";
 
-import { componentesReutility } from "./";
+import { componentesDriveOn } from "./";
 
 const app = createApp(App);
-app.use(componentesReutility);
+app.use(componentesDriveOn);
 app.mount("#app");

@@ -61,7 +61,7 @@ import TConfirmationDialog from "@/components/TConfirmationDialog.vue";
 import TMessageDialog from "@/components/TMessageDialog.vue";
 import TButton from "@/components/TButton.vue";
 
-export const componentesReutility = (app: App) => {
+export const componentesDriveOn = (app: App) => {
   const tooltips = useTooltips();
   tooltips.generateOverlayContainer();
 

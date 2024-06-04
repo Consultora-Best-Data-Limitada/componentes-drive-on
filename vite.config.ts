@@ -19,9 +19,9 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       formats: ["es", "cjs"],
-      name: "ComponentesReutility",
+      name: "ComponentesDriveOn",
       entry: "./src/index.ts",
-      fileName: "componentes-reutility",
+      fileName: "componentes-drive-on",
     },
     rollupOptions: {
       external: ["vue"],

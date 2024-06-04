@@ -1,10 +1,10 @@
 {
-  "name": "componentes-reutility",
-  "version": "0.7.6",
+  "name": "componentes-drive-on",
+  "version": "0.0.1",
   "private": true,
-  "main": "dist/componentes-reutility.umd.cjs",
-  "module": "dist/componentes-reutility.js",
-  "browser": "dist/componentes-reutility.js",
+  "main": "dist/componentes-drive-on.umd.cjs",
+  "module": "dist/componentes-drive-on.js",
+  "browser": "dist/componentes-drive-on.js",
   "type": "module",
   "types": "typings/index.d.ts",
   "files": [
@@ -24,8 +24,8 @@
   "exports": {
     ".": {
       "types": "./typings/index.d.ts",
-      "import": "./dist/componentes-reutility.js",
-      "require": "./dist/componentes-reutility.umd.cjs"
+      "import": "./dist/componentes-drive-on.js",
+      "require": "./dist/componentes-drive-on.umd.cjs"
     },
     "./dist/index.css": {
       "import": "./dist/index.css",
