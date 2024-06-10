@@ -31,12 +31,6 @@ body,
   height: 100%;
 }
 
-input,
-button {
-  border: none;
-  background: transparent;
-}
-
 button {
   cursor: pointer;
 }
