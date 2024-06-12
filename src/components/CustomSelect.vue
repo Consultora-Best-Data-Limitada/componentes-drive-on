@@ -20,7 +20,7 @@
         :value="text"
         :disabled="disabled"
         :placeholder="placeholder"
-        class="h-9 outline-0 cursor-pointer px-3 text-secundario text-base placeholder-neutro-4"
+        class="h-9 outline-0 cursor-pointer bg-transparent px-3 text-secundario text-base placeholder-neutro-4"
         @focus="openMenu"
         @blur="closeMenuBlur"
         @keydown.tab="closeMenuTab"
