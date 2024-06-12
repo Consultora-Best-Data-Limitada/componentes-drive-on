@@ -10840,7 +10840,7 @@ const Do = /* @__PURE__ */ new WeakMap(), Ih = (e) => {
           disabled: e.disabled,
           readonly: e.readonly,
           placeholder: e.placeholder,
-          class: "outline-none h-9 px-3 text-secundario text-base placeholder-neutro-4",
+          class: "outline-none h-9 px-3 text-secundario text-base bg-transparent placeholder-neutro-4",
           onBlur: d,
           onFocus: i,
           onInput: f,
@@ -10867,7 +10867,7 @@ const Do = /* @__PURE__ */ new WeakMap(), Ih = (e) => {
     ]));
   }
 });
-const qr = /* @__PURE__ */ be(Uh, [["__scopeId", "data-v-8cc134c5"]]), Wh = ["data-dark", "data-filled", "data-outlined", "data-readonly", "data-error", "onMousedown"], Lh = ["value", "disabled", "placeholder", "onKeydown"], Hh = ["onClick"], zh = ["data-opened"], jh = ["data-selected", "onClick"], qh = {
+const qr = /* @__PURE__ */ be(Uh, [["__scopeId", "data-v-c447c214"]]), Wh = ["data-dark", "data-filled", "data-outlined", "data-readonly", "data-error", "onMousedown"], Lh = ["value", "disabled", "placeholder", "onKeydown"], Hh = ["onClick"], zh = ["data-opened"], jh = ["data-selected", "onClick"], qh = {
   key: 2,
   class: "leading-5 text-base text-center text-secundario"
 }, Gh = {

@@ -32,7 +32,7 @@
         :disabled="disabled"
         :readonly="readonly"
         :placeholder="placeholder"
-        class="outline-none h-9 px-3 text-secundario text-base placeholder-neutro-4"
+        class="outline-none h-9 px-3 text-secundario text-base bg-transparent placeholder-neutro-4"
         @blur="onBlur"
         @focus="onFocus"
         @input="onInput"
