@@ -10481,7 +10481,7 @@ const gh = { class: "grid gap-y-1" }, bh = ["data-dark", "data-opened", "data-fi
               value: $,
               disabled: e.disabled,
               placeholder: e.placeholder,
-              class: "h-9 outline-0 cursor-pointer px-3 text-secundario text-base placeholder-neutro-4",
+              class: "h-9 outline-0 cursor-pointer px-3 bg-transparent text-secundario text-base placeholder-neutro-4",
               onClick: h[0] || (h[0] = Pe(() => {
               }, ["stop"])),
               onInput: B,
@@ -10529,7 +10529,7 @@ const gh = { class: "grid gap-y-1" }, bh = ["data-dark", "data-opened", "data-fi
     ]));
   }
 });
-const Zo = /* @__PURE__ */ be($h, [["__scopeId", "data-v-686c651f"]]), bu = (e, t, n) => {
+const Zo = /* @__PURE__ */ be($h, [["__scopeId", "data-v-84411c3e"]]), bu = (e, t, n) => {
   const r = t.length - 1;
   if (r < 0)
     return e === void 0 ? n : e;

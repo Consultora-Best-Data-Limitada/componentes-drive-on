@@ -35,7 +35,7 @@
             :value="value"
             :disabled="disabled"
             :placeholder="placeholder"
-            class="h-9 outline-0 cursor-pointer px-3 text-secundario text-base placeholder-neutro-4"
+            class="h-9 outline-0 cursor-pointer px-3 bg-transparent text-secundario text-base placeholder-neutro-4"
             @click.stop
             @input="onInput"
             @focus.stop="onFocus"
